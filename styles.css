@@ -1,3 +1,36 @@
+
+/* ----------- Font Face Import ----------- */
+/* ----------------------- Montserrat -------------------------------- */
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('/fonts/Montserrat-Medium.otf');
+    font-display: auto;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('/fonts/Montserrat-Regular.otf');
+    font-display: auto;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('/fonts/Montserrat-Bold.otf');
+    font-display: auto;
+    font-style: normal;
+}
+
+/* ------------------ Font styles ------------------ */
+.font-Montserrat-regular {
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+.font-Montserrat-medium {
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+.font-Montserrat-bold {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
 html,
 body {
   padding: 0;

@@ -7,6 +7,7 @@ const useStyles = createUseStyles((theme: any) => ({
     composes: 'flexRow alignCenter justifyCenter',
   },
   title: {
+    composes: 'font-Montserrat-regular',
     color: theme.colors.accent,
   },
 }));
