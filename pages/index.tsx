@@ -2,6 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import { createUseStyles } from 'react-jss';
 
+import Main from '../components/home/main/Main';
+
 const useStyles = createUseStyles((theme: any) => ({
   container: {
     composes: 'flexRow alignCenter justifyCenter',
@@ -21,14 +23,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={classes.container}>
-        <h1 className={classes.title}>
-          Welcome to 
-          {' '}
-          <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-        <img src='/images/bmw.jpg' alt="" />
-      </main>
+      <Main text="Welcome to NextJs App" />
     </div>
   );
 };

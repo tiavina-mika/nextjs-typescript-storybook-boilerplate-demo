@@ -5,7 +5,7 @@ import { ThemeProvider } from 'react-jss';
 import '../styles/globals.css';
 import '../styles.css';
 
-const theme = {
+export const theme = {
   colors: {
     dark: '#000000',
     white: '#ffffff',
