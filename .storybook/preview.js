@@ -29,6 +29,13 @@ const viewports = {
   iphone678: {
     name: 'iphone 6/7/8',
     styles: {
+      width: '375px',
+      height: '667px',
+    },
+  },
+  iphone678plus: {
+    name: 'iphone 6/7/8 plus',
+    styles: {
       width: '414px',
       height: '736px',
     },
@@ -47,11 +54,11 @@ const viewports = {
       height: '1024px',
     },
   },
-  tabletLarg: {
-    name: 'tablet Larg',
+  ipadPro: {
+    name: 'ipad pro',
     styles: {
-      width: '960px',
-      height: '768px',
+      width: '1204px',
+      height: '1366px',
     },
   },
   desktop: {
@@ -61,6 +68,21 @@ const viewports = {
       height: '1024px',
     },
   },
+  hd: {
+    name: 'HD',
+    styles: {
+      width: '1920px',
+      height: '1024px',
+    },
+  },
+  ultraHD: {
+    name: 'ultra HD',
+    styles: {
+      width: '2500px',
+      height: '1024px',
+    },
+  },
+  
 };
 
 export const parameters = {
@@ -68,7 +90,7 @@ export const parameters = {
   controls: { expanded: true },
   viewport: {
     viewports,
-    defaultViewport: 'iphone678',
+    defaultViewport: 'hd',
   },
   paddings: [
     { name: 'NoPadding', value: '0px', default: true },
